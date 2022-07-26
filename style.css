@@ -238,7 +238,7 @@
 {
 	float:left;
 	width: 75%;
-	margin-left: 11px;
+	margin-left: 13px;
 }
 .main_body .layer1{
 	display: flex;
@@ -292,12 +292,6 @@
     	max-height: 78%;
     	width: 76%;
 }
-::-webkit-scrollbar {
-	width: 10px;
-}
-::-webkit-scrollbar-thumb {
-	background:#ccc; 
-}
 .layer2 button:hover{
 	cursor:pointer;
 	background-color:whitesmoke;
@@ -310,26 +304,23 @@
 .layer2 button{
 	border: none;
 	background-color:transparent;
-	padding: 10px 153px 10 0px;
+	padding: 10px 0px 14px 0px;
+	width:26%;
 	display: flex;
     	align-items: center;	
 }
 .layer2 .material-icons{
 	font-size: 21px;
 	width:34px;
-	align:center;
 	padding-top: 2px;
 }
-.layer2 .type,.layer2 .type,.layer2 .type{
+.layer2 .type{
 	font-size:14px;	
-	padding-left:5px;
-	vertical-align: super;
+	padding-left:10px;
 }
 .layer2 .primary{
 	color: #d93025;	
-	border-bottom: 3px solid red;
-	display: flex;
-    align-items: center;
+	border-bottom: 3px solid #d93c35;
 }
 .layer2 .social .material-icons, .layer2 .promo .material-icons{
 	opacity:.6;
@@ -360,7 +351,8 @@
 }
 .layer3 .three{
 	padding-left:10px;
-	font-size:14px;
+	padding-top:3px;
+	font-size:13px;
 	width: 100%;
 	white-space: nowrap;
 }
@@ -384,18 +376,11 @@
 .layer3 .three .msg3
 {	
     	font-weight: 600;
-	margin-left:2%;
+	margin-left:4%;
 }
 .layer3 .three .msg2 
 {
 	margin-left:2%;
-}
-}
-@media screen and (max-width:1013px)
-{
-.layer3 .details
-{	
-	display:none;
 }
 }
 .small-sidebar{	       
