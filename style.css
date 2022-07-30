@@ -103,7 +103,6 @@
 	display:flex;	
 	box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%),0 4px 8px 3px rgb(59 63 66 / 15%);   
 }
-
 .compose-button .plus-icon{
 	padding: 2px 0px 2px 11px;
 }
@@ -172,7 +171,6 @@
 #keyboard span{
 	font-size: 23px;
 }
-
 .sidebox3{
 	padding: 16px 0px 7px  16px;	
     	border-bottom: 1px solid #eef1f3;
@@ -182,7 +180,6 @@
 	margin-left:10px;
 	font-size: 14px;
 }
-
 .sidebox3 img{
 	border-radius: 50%;
 	height: 28px;
@@ -374,7 +371,7 @@
 	border: 1px solid #e6e6e6;
 }
 .small-sidebar{	       
-	margin-left: 10px;
+	margin-left: 22px;
     	margin-top: 4px;	
 }
 .small-sidebar li:hover{
@@ -423,11 +420,20 @@
 	{
     		margin-right: 11px;
 	}
+	.small-sidebar 
+	{
+    		margin-left: 11px;
+	}
+	.sidebox3 #add 
+	{
+    		padding-left: 0px;
+	}
 }
 
 @media screen and (min-width:426px) and (max-width:768px)
 {
-	.middle input {
+	.middle input 
+	{
     		font-size: 14px;
 	}
 	.msg2 .details
@@ -438,21 +444,29 @@
 	{
 		margin-left: 2%;
 	}
-	.middle #tune {
+	.middle #tune 
+	{
     		padding-top: 2.6%;
 	}
 	.right
 	{
    		padding-left: 2%; 
 	}
-	.sidebar {
+	.sidebar 
+	{
     		width: 20.7%;
 	}
-	.sidebox3 #add {
+	.sidebox3 #add 
+	{
     		 padding-left: 0px; 
 	}
-	.flow {
+	.flow 
+	{
     		width: 65%;
+	}
+	.layer2 .promo 
+	{
+    		margin-right: 35px;
 	}
 	.small-sidebar img 
 	{
@@ -462,7 +476,8 @@
     		margin: 0 0px 0 0px;
    		width: 43%;
 	}
-	.main_body .layer1 {
+	.main_body .layer1 
+	{
 		width: 94%;
 	}
 	.main_body{
@@ -471,11 +486,8 @@
 }
 @media screen and (max-width:320px)
 {
-	.left img
+	.middle
 	{
-		display:none;
-	}
-	.middle{
 		margin:0px;
 	}
 	.middle #search
@@ -483,7 +495,8 @@
 		padding-top:3px;
 		font-size: 16px;
 	}
-	.middle input{
+	.middle input
+	{
 		line-height: 26px;
 		font-size: 11px;
     		line-height: 26px;
@@ -494,44 +507,32 @@
     		padding-top: 4.6%;
     		font-size: 15px;
 	}
-	.right .material-icons,.right .settings, .right .apps {
+	.right .material-icons,.right .settings, .right .apps, .left img, .sidebar, .small-sidebar, .main_body .layer1,.layer3 .three .msg2 
+	{
 		display:none;
 	}
 	.right{
 		padding-left:0%;
 	}
-	.right .sign {
+	.right .sign 
+	{
     		width: 26px;
   		padding: 2px; 
     		margin-left: 12px;
-
-	}
-	.sidebar{
-		display:none;
-	}
-	.small-sidebar {
-		display:none;
-	}
-	.main_body .layer1{
-		display:none;
 	}	
 	.layer2{
 		display: block;
 	}
-	.layer2 .promo {
+	.layer2 .promo 
+	{
     		padding-left: 0px; 
 	}
 	.flow {
     		overflow-y: hidden;
-		    width: 85%;
+		width: 85%;
 	}
-	.layer2 .primary {
-    		width: 100%;
-	}
-	.layer2 .promo {
-    		width: 100%;
-	}
-	.layer2 .social {
+	.layer2 .primary, .layer2 .promo,.layer2 .social
+	{
     		width: 100%;
 	}
 	.layer3 .material-icons {
@@ -540,12 +541,8 @@
 	.layer3 .three .msg1 {
     		font-size: 12px;
 	}
-	.layer3 .three .msg2 {
-		display:none;
-	}
 	.layer3 .three .msg3 {
     		font-size: 12px;
     		margin-left: 25%;
-	}
-	
+	}	
 }
