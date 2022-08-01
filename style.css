@@ -429,14 +429,13 @@
     		padding-left: 0px;
 	}
 }
-
-@media screen and (min-width:426px) and (max-width:768px)
+@media screen and (min-width:427px) and (max-width:768px)
 {
 	.middle input 
 	{
     		font-size: 14px;
 	}
-	.msg2 .details
+	.msg2 .details,.sidebox4 ,.sidebox5
 	{
 		display:none;
 	}
@@ -448,9 +447,13 @@
 	{
     		padding-top: 2.6%;
 	}
+	.small-arrow .material-icons 
+	{
+		margin-top:0px;
+	}
 	.right
 	{
-   		padding-left: 2%; 
+   		padding-left: 4%; 
 	}
 	.sidebar 
 	{
@@ -462,18 +465,22 @@
 	}
 	.flow 
 	{
-    		width: 65%;
+    		width: 70%;
 	}
 	.layer2 .promo 
 	{
     		margin-right: 35px;
+	}
+	.small-sidebar 
+	{
+    		margin-top: 14px;
 	}
 	.small-sidebar img 
 	{
 		Padding-left: 0px; 
 	}
 	.middle {
-    		margin: 0 0px 0 0px;
+    		margin-left: 15px;
    		width: 43%;
 	}
 	.main_body .layer1 
@@ -481,7 +488,94 @@
 		width: 94%;
 	}
 	.main_body{
-		width: 66%;
+		width: 69%;
+	}
+}
+@media screen and (min-width:321px) and (max-width:426px)
+{
+	.small-sidebar, .left img, .right .material-icons, .right .settings, .right .apps, .layer3 .three .msg2, .layer1 .keyss,.msg2 .details
+	{
+		display: none;
+	}
+	.middle input 
+	{
+    		font-size: 14px;
+		line-height: 35px;
+    		width: 50%;
+	}
+	.middle 
+	{
+    		margin-left: 6%;
+    		width: 59%;
+	}
+	.compose-button 
+	{
+		width: 52px;
+	}
+
+	.sidebox1,.sidebox2 
+	{
+		width:88%;
+	}
+	.sidebox3 #add,.sidebox3 .material-icons,.sidebox2 p, .sidebox3 p, .sidebox4, .sidebox5, .compose-button span, .sidebox1 .redish a,.sidebox1 a, .sidebox2 a
+	{
+		display:none;
+	}
+	.flow 
+	{
+    		width: 76%;
+	}
+	.layer1 .material-icons 
+	{
+    		font-size: 19px;
+	}
+	.layer2 
+	{
+    		margin-left: 6px;
+	}
+	.layer2 .material-icons 
+	{
+    		font-size: 19px;
+		width: 0px;
+	}
+	.layer2 .type 
+	{
+    		font-size: 13px;
+		padding-left: 25px;
+	}
+	.layer2 button
+	{
+		padding: 10px 0px 14px 4px;
+	}
+	.layer3 .material-icons 
+	{
+    		font-size: 17px;
+	}
+	.layer3 .three 
+	{
+    		padding-left: 20px;
+    		font-size: 12px;
+	}
+	.layer3 .three .msg3 
+	{
+		margin-left: 28%;
+	}
+	.middle #tune 
+	{
+    		padding-top: 3%;
+		font-size: 18px;
+	}
+	middle span 
+	{
+    		font-size: 18px;
+	}
+	.layer2 .promo 
+	{
+    		margin-right: 35px;
+	}
+	.main_body .layer1 
+	{
+    		margin: 13px 0px 6px 5px;
 	}
 }
 @media screen and (max-width:320px)
@@ -502,7 +596,8 @@
     		line-height: 26px;
     		width: 35.7%;
 	}
-	.middle #tune {
+	.middle #tune 
+	{
     		padding-right: 2.3%;
     		padding-top: 4.6%;
     		font-size: 15px;
@@ -511,7 +606,8 @@
 	{
 		display:none;
 	}
-	.right{
+	.right
+	{
 		padding-left:0%;
 	}
 	.right .sign 
@@ -527,7 +623,8 @@
 	{
     		padding-left: 0px; 
 	}
-	.flow {
+	.flow 
+	{
     		overflow-y: hidden;
 		width: 85%;
 	}
@@ -535,13 +632,16 @@
 	{
     		width: 100%;
 	}
-	.layer3 .material-icons {
+	.layer3 .material-icons 
+	{
     		font-size: 16px;
 	}
-	.layer3 .three .msg1 {
+	.layer3 .three .msg1 
+	{
     		font-size: 12px;
 	}
-	.layer3 .three .msg3 {
+	.layer3 .three .msg3 
+	{
     		font-size: 12px;
     		margin-left: 25%;
 	}	
